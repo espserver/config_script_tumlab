@@ -2,7 +2,12 @@
 
 ## Description scripts
 
-### config.sh
--   this script renames the tumlab using the mac address of the wifi card
+### config_tumlab_param.sh
+-   This script parameterizes the tumlab data and configures its name to be able to be identified
+
+### config_service_suncthing.sh
+-   This sctipt downloads and installs syncthing as a linux service
+
+## How to use
 
 

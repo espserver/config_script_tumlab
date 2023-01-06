@@ -1,8 +1,8 @@
 #!/bin/bash 
 
-echo "------------Script de parametrizacion de informacion del tumlab------------ "
+echo "------------Parametrizacion de informacion del tumlab------------ "
 
-path_json="/home/ramiro/Documents/repos/config_script_tumlab/agent.config"
+path_json="/tumlab/syncthing/agent.config"
 echo "$path_json"
 
 check_number(){
@@ -92,4 +92,10 @@ name="$(echo "$mac_address" | tr -d ':')"
 add_parameters mac_address "\"$name\"" 6
 
 cat "$path_json"
-echo "------------Fin script de parametrizacion de informacion del tumlab------------ "
+echo "------------Fin de parametrizacion de informacion del tumlab------------ "
+echo ""
+echo ""
+echo "------------Parametrizacion de nombre tumlab------------ "
+echo "Tumlab name: $name"
+echo "$name" > /etc/hostname
+echo "------------Fin de parametrizacion de nombre tumlab------------ "
