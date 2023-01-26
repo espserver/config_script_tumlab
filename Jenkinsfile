@@ -5,7 +5,7 @@ pipeline {
       steps {
         sh '''#!/bin/bash
 
-ls -la > /notas.txt'''
+pwd'''
       }
     }
 
