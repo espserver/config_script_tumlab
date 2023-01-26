@@ -5,7 +5,7 @@ pipeline {
       steps {
         sh '''#!/bin/bash
 
-pwd'''
+ls -la'''
       }
     }
 
