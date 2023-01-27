@@ -1,11 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('build') {
+    stage('send mesage') {
       steps {
-        sh '''#!/bin/bash
-
-ls -la'''
+        mail(subject: 'Test tag git hub repo', body: 'test masage add new tag in git hub repository', from: 'especialista.servidores@talentum.edu.co', to: 'especialista.servidores@talentum.edu.co')
       }
     }
 
