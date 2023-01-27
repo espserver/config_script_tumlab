@@ -1,7 +1,7 @@
 # SCRIPTS CONFIG TUMLAB
 hello 2
 ## Description scripts
-
+test
 ### config_tumlab_param.sh
 -   This script parameterizes the tumlab data and configures its name to be able to be identified
 
