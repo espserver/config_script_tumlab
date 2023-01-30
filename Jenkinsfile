@@ -5,7 +5,7 @@ pipeline {
       parallel {
         stage('send mesage') {
           steps {
-            mail(subject: 'Test tag git hub repo', body: 'test masage add new tag in git hub repository ${env.JOB_NAME} ${env.BUILD_NUMBER}', to: 'ramiroramirezvargas@gmail.com')
+            mail(subject: 'Test tag git hub repo', body: 'test masage add new tag in git hub repository \'$TAG_NAME\'', to: 'ramiroramirezvargas@gmail.com')
           }
         }
 
