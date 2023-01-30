@@ -1,5 +1,7 @@
   # SCRIPTS CONFIG TUMLAB
 hello 2
+test 
+
 ## Description scripts
 test
 ### config_tumlab_param.sh
