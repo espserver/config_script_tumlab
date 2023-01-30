@@ -1,6 +1,6 @@
   # SCRIPTS CONFIG TUMLAB
 hello 2
-test 
+test 3
 
 ## Description scripts
 test
