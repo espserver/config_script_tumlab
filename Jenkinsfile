@@ -11,7 +11,7 @@ pipeline {
 
         stage('slack send') {
           steps {
-            slackSend(attachments: 'test', blocks: 'test', message: 'test', baseUrl: 'test')
+            slackSend(attachments: 'test', blocks: 'test', message: 'test', baseUrl: 'test', sendAsText: true)
           }
         }
 
